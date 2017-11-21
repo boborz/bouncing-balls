@@ -191,10 +191,10 @@ function createBalls() {
       var ball = new Ball(
         utils.random(0, width),  // x
         utils.random(0, height), // y
-        utils.random(1, 10),     // speedX
-        utils.random(1, 10),     // speedY
+        utils.random(1, 8),     // speedX
+        utils.random(1, 8),     // speedY
         'rgb('+utils.random(0, 255) +','+ utils.random(0, 255)+','+ utils.random(0, 255) +')',
-        80,                     // radius
+        30,                     // radius
         1                       // density
       );
       balls.push(ball);

@@ -62,10 +62,14 @@
 //------------------main-------------------------------//
 
 var canvas = document.querySelector('canvas');
+canvas.style.borderColor = "black";
+canvas.style.borderWidth = '5px';
+canvas.style.borderStyle = "solid";
+
 var ctx = canvas.getContext('2d');
 
-var width = canvas.width = window.innerWidth;
-var height = canvas.height = window.innerHeight;
+var width = canvas.width = window.innerWidth - 10;
+var height = canvas.height = window.innerHeight - 10;
 
 var balls = [];
 
